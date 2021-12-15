@@ -1,5 +1,5 @@
 const paraReal = (x)=>{
-    console.log(`O valor em real eh: R$${x.tofixed(2)}`)
-}
+    console.log(`O valor em real eh: R$${x.toFixed(2).toString().replace(".",",")}`)
+};
 
-console.log(0.1+0.2);
+paraReal(0.1+0.2);
